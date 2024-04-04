@@ -57,7 +57,7 @@ export default function Header() {
       <Navbar.Toggle className="absolute left-0 max-w-full top-0 opacity-0 " />
     </div>
   </div>
-  <Navbar.Collapse className="absolute bottom-14  left-0 md:static">
+  <Navbar.Collapse className="absolute bottom-[100%]  left-0 md:static">
     <div className=" font-medium grid  grid-cols-3 gap-3 p-4 md:flex md:p-0 mt-4 border bg-gray-50 md:bg-transparent border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 after:content-[''] ">
       {links.map((link, i) => (
         <Navbar.Link
