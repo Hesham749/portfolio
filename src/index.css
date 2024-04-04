@@ -26,3 +26,6 @@ button{
 img{
   max-width: 100%;
 }
+.active{
+  @apply text-black
+}
