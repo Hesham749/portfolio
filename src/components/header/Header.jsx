@@ -1,8 +1,5 @@
 import { Navbar } from "flowbite-react";
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import Scroll from "./../home/Scroll";
-import { cleanup } from "@testing-library/react";
 
 export default function Header() {
   const links = [
@@ -50,8 +47,6 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
-      setPosition(0);
-      console.log(position);
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
