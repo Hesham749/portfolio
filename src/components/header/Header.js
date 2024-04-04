@@ -11,27 +11,27 @@ export default function Header() {
     },
     {
       name: "About",
-      path: "#",
+      path: "#about",
       icon: "user",
     },
     {
       name: "Skills",
-      path: "#",
+      path: "#skills",
       icon: "file",
     },
     {
       name: "Services",
-      path: "#",
+      path: "#services",
       icon: "briefcase-alt-2",
     },
     {
       name: "Portfolio",
-      path: "#",
+      path: "#portfolio",
       icon: "image-alt",
     },
     {
       name: "Contact",
-      path: "#",
+      path: "#contact",
       icon: "send",
     },
   ];
@@ -48,11 +48,11 @@ export default function Header() {
         </Navbar.Brand>
         <div
           onClick={() => setIsOpen(!isOpen)}
-          className="flex  md:order-2 md:hidden relative text-center overflow-hidden ">
+          className="flex   md:order-2 md:hidden relative text-center overflow-hidden ">
           {isOpen ? (
-            <i className="bx bx-x text-2xl md:hidden  "></i>
+            <i className="bx bx-x text-2xl md:hidden font-bold "></i>
           ) : (
-            <i className="bx bx-grid-alt text-xl md:hidden"></i>
+            <i className="bx bx-grid-alt text-2xl md:hidden"></i>
           )}
 
           <Navbar.Toggle className="absolute left-0 w-full max-w-full h-full top-0 opacity-0 " />
@@ -66,7 +66,7 @@ export default function Header() {
                   setIsOpen(false);
                 }}
                 key={i}
-                href="#"
+                href={`${link.path}`}
                 className={`${
                   activeLink === link.name && "active"
                 } flex flex-col items-center font-bold py-2 px-3 rounded border-none text-gray-500 hover:text-title-color-dark  `}>
