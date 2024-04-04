@@ -49,15 +49,18 @@ export default function Header() {
     // window.onscroll=() => handleScroll();
     window.addEventListener("scroll", handleScroll);
 
-    return  () => {
-      setPosition(0)
+    return () => {
+      setPosition(0);
       console.log(position);
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <>
-      <Navbar className={`${position>0 && 'md:shadow-md'} fixed bottom-0 md:sticky md:top-0 w-full px-7 md:px-0  bg-body-color `}>
+      <Navbar
+        className={`${
+          position > 0 && "md:shadow-md"
+        } fixed bottom-0 md:sticky md:top-0 w-full px-7 md:px-0  bg-body-color `}>
         <Navbar.Brand href="#">
           <span className="self-center whitespace-nowrap text-xl font-semibold text-gray-700">
             Hesham
