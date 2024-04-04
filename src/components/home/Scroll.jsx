@@ -7,7 +7,7 @@ export default function Scroll() {
       <svg
         width="32px"
         height="32px"
-        class="home__scroll-mouse"
+        className="home__scroll-mouse"
         viewBox="0 0 247 390"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ export default function Scroll() {
             strokeWidth: "20px",
           }}></path>
       </svg>
-          Scroll Down <i class='bx bx-down-arrow-alt font-bold '></i>
+          Scroll Down <i className='bx bx-down-arrow-alt font-bold '></i>
           </a>
     </div>
   );

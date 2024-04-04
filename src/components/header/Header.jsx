@@ -1,6 +1,7 @@
 import { Navbar } from "flowbite-react";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Scroll from './../home/Scroll';
 
 export default function Header() {
   const links = [
@@ -38,9 +39,10 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
 
+  console.log();
   return (
     <>
-      <Navbar className="fixed bottom-0 md:sticky md:top-0 w-full px-7 md:px-0  bg-body-color ">
+      <Navbar className=" fixed bottom-0 md:sticky md:top-0 w-full px-7 md:px-0  bg-body-color ">
         <Navbar.Brand href="#">
           <span className="self-center whitespace-nowrap text-xl font-semibold text-gray-700">
             Hesham
