@@ -30,7 +30,7 @@ img{
   @apply text-black
 }
 .image{
-  box-shadow:  0 0 0 8px rgba(0, 0, 0, 0.79) !important;
+  box-shadow:  0 0 0 8px #333233 !important;
 
   animation: border 8s ease-in-out infinite   ;
 }
@@ -43,5 +43,17 @@ img{
   }
   100%{
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.wheel{
+  animation: scroll 2s ease-in-out infinite;
+}
+@keyframes scroll  {
+  0%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateY(3.5rem);
   }
 }

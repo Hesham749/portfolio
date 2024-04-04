@@ -7,6 +7,7 @@ module.exports = {
       'body-color': '#FBFAFB',
       'title-color': '#9C9BA1',
       'title-color-dark': '#1E1C23',
+      'container-color': '#333233',
 
 
     },container:{
