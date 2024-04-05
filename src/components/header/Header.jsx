@@ -5,7 +5,7 @@ export default function Header() {
   const links = [
     {
       name: "Home",
-      path: "#home",
+      path: "#",
       icon: "home-alt",
     },
     {

@@ -5,7 +5,7 @@ import Info from "./Info";
 
 export default function About() {
   return (
-    <section className="mb-40 " id="about">
+    <section className="mb-40 pt-10" id="about">
       <h2 className="text-center text-title-color-dark text-3xl font-semibold">
         About Me
       </h2>
