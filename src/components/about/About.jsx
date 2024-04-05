@@ -33,7 +33,7 @@ export default function About() {
               className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
               Download CV
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
