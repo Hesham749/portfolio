@@ -24,7 +24,7 @@ export default function About() {
             <Info />
             <p className="text-title-color my-7">
               Frontend developer, I create web pages with UI / UX user
-              interface, I have years of experience and many clients are happy
+              interface, I have year of experience and many clients are happy
               with the projects carried out.
             </p>
             <a
