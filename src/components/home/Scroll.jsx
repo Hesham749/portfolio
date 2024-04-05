@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Scroll() {
   return (
-    <div className="  my-16 md:ps-14 ps-9 ">
+    <div className="  my-16 md:ps-14 ps-10 ">
       <a href="#about" className="hover:text-title-color-dark font-bold text-gray-500 flex justify-start  items-center">
       <svg
         width="32px"
