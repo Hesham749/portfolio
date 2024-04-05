@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomeContent() {
   return (
-    <div className="md:max-w-[50%] px-5 order-1 ">
+    <div className="md:max-w-[50%] px-5 md:px-0 md:ps-5 order-1 ">
       <h1 className="font-bold text-3xl lg:text-4xl text-gray-800 flex items-center gap-1  ">
         Hesham Elsayed
         <svg
@@ -47,7 +47,7 @@ export default function HomeContent() {
       <h3 className="font-semibold text-gray-600 my-5 flex before:content[''] before:h-[1px] before:w-12 before:bg-gray-500 before:border-none items-center before:me-3">
         Front-end Developer
       </h3>
-      <p className=" text-gray-600 ">
+      <p className=" text-title-color  ">
         I’m very ambitious front-end developer looking for a role in established
         IT company with the opportunity to work with the latest technologies on
         challenging and diverse projects.
