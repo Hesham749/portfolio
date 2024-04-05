@@ -4,13 +4,15 @@ module.exports = {
   theme: {
     extend: {},
     colors:{
-      'body-color': '#FBFAFB',
-      'title-color': '#9C9BA1',
+      'body-color': '#FBFBFB',
+      'title-color': '#777777',
       'title-color-dark': '#1E1C23',
       'container-color': '#333233',
 
 
-    },container:{
+    },
+
+    container:{
       center:true,
     }
   },

@@ -6,8 +6,8 @@ import Scroll from "./Scroll";
 export default function Home() {
   return (
     <main>
-      <section id="home " className="container mt-20 mb-40 ">
-        <div className="flex md:items-center md:gap-4 px-5 md:px-0 ">
+      <section id="home " className=" mt-20 mb-40 ">
+        <div className="flex md:items-center md:gap-4  ">
           <Social />
           <div className="flex items-center  md:justify-between justify-center  md:flex-row flex-col gap-10">
             <HomeContent />

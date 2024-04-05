@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Scroll() {
   return (
-    <div className="  my-16 ps-14 md:ps-0 ">
-      <a href="#about" className="hover:text-title-color-dark font-bold text-gray-500 flex justify-start md:justify-center items-center">
+    <div className="  my-16 ps-14  ">
+      <a href="#about" className="hover:text-title-color-dark font-bold text-gray-500 flex justify-start  items-center">
       <svg
         width="32px"
         height="32px"
