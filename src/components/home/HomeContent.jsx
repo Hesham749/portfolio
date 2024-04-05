@@ -47,7 +47,7 @@ export default function HomeContent() {
       <h3 className="font-semibold text-gray-600 my-5 flex before:content[''] before:h-[1px] before:w-12 before:bg-gray-500 before:border-none items-center before:me-3">
         Front-end Developer
       </h3>
-      <p className="text-xs text-gray-600 ">
+      <p className=" text-gray-600 ">
         I’m very ambitious front-end developer looking for a role in established
         IT company with the opportunity to work with the latest technologies on
         challenging and diverse projects.

@@ -16,7 +16,7 @@ export default function Info() {
       <div className="bg-white py-3 px-5  border-[1px] border-gray-200 rounded-xl flex flex-col items-center justify-start">
       <i className='bx bx-headphone text-xl'></i>
         <h3 className="">Support</h3>
-        <span className=" text-title-color  text-xxs" >Online 24/7</span>
+        <span className=" text-title-color " >Online 24/7</span>
       </div>
 
     </div>
