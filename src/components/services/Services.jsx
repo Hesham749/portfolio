@@ -30,7 +30,7 @@ export default function Services() {
             <div
               key={i}
               className="bg-white px-10 rounded-md border border-gray-200  md:w-[300px] h-[270px] flex flex-col items-start justify-center gap-5">
-              <i className={`${item.icon} text-2xl`}></i>
+              <i className={`${item.icon} text-2xl font-semibold`}></i>
 
               <h3 className="text-title-color-dark text-lg font-bold">
                 {item.fName}
@@ -40,7 +40,7 @@ export default function Services() {
 
               <p
                 onClick={() => setPopToggle(i)}
-                className="text-title-color text-xs cursor-pointer group">
+                className="text-title-color text-base cursor-pointer group">
                 View More{" "}
                 <i className="bx bxs-chevron-right group-hover:translate-x-2 transition-all duration-300 group-hover:text-title-color-dark"></i>
               </p>
