@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-body-color container px-5 ">
+      <main className="bg-body-color container px-3 ">
       <Home />
       <About />
       <Skills />

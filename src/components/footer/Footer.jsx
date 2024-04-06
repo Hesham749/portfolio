@@ -10,16 +10,22 @@ export default function FOoter() {
         {/* icons */}
         <div className="flex gap-5 justify-center">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/Hesham749"
             className="text-title-color-dark font-semibold text-3xl  ">
             <i className="fa-brands fa-square-github"></i>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/hesham-elsayed-5034ba179/"
             className="text-title-color-dark font-semibold text-3xl  ">
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://www.instagram.com/hesham_elsayeed/"
             className="text-title-color-dark font-semibold text-3xl  ">
             <i className="fa-brands fa-square-instagram"></i>

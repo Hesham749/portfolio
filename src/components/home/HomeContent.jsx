@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomeContent() {
   return (
-    <div className="md:max-w-[50%] px-5 md:px-0 md:ps-5 order-1 ">
+    <div className="md:max-w-[50%] px- md:px-0 md:ps-5 order-1 ">
       <h1 className="font-bold text-3xl lg:text-4xl text-gray-800 flex items-center gap-1  ">
         Hesham Elsayed
         <svg
