@@ -29,7 +29,7 @@ export default function Services() {
           {services.map((item, i) => (
             <div
               key={i}
-              className="bg-white px-10 rounded-md border border-gray-200  md:w-[300px] h-[270px] flex flex-col items-start justify-center gap-5">
+              className="bg-white px-10 rounded-lg border border-gray-200 shadow-lg md:w-[300px] h-[270px] flex flex-col items-start justify-center gap-5">
               <i className={`${item.icon} text-3xl `}></i>
 
               <h3 className="text-title-color-dark text-lg font-bold">
