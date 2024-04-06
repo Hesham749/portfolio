@@ -57,7 +57,7 @@ export default function Header() {
           position > 0 && "md:shadow-md"
         } fixed bottom-0 md:sticky md:top-0 w-full px-5   bg-body-color `}>
         <Navbar.Brand href="#">
-          <span className="self-center  text-xl  font-semibold text-gray-700">
+          <span className="self-center  text-xl  font-semibold text-title-color-dark">
             Hesham
           </span>
         </Navbar.Brand>
