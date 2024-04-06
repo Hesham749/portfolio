@@ -5,7 +5,7 @@ import Info from "./Info";
 
 export default function About() {
   return (
-    <section className="mb-40 pt-10 px-5 md:px-0" id="about">
+    <section className="mb-40 pt-16 px-5 md:px-0" id="about">
       <h2 className="text-center text-title-color-dark text-3xl font-semibold">
         About Me
       </h2>
@@ -16,7 +16,7 @@ export default function About() {
         <img
           src={aboutImg}
           alt=""
-          className=" md:grid md:grid-cols-subgrid md:col-span-2 h-[220px] grow md:h-[240px] lg:h-[350px] rounded-2xl   justify-self-center md:justify-self-start lg:justify-self-end xl:justify-self-center "
+          className=" md:grid md:grid-cols-subgrid md:col-span-2 h-[220px] grow md:h-[240px] lg:h-[350px] rounded-2xl   justify-self-center md:justify-self-start lg:justify-self-end xl:justify-self-center shadow-lg "
         />
 
         <div className="grid md:grid-cols-subgrid md:col-span-3  ">
@@ -30,7 +30,7 @@ export default function About() {
             <a
               href={CV}
               download={""}
-              className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
+              className="flex items-center gap-1 p-3 w-fit  rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
               Download CV
               <svg
                 className="button__icon"
