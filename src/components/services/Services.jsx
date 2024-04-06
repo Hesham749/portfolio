@@ -40,7 +40,7 @@ export default function Services() {
 
               <p
                 onClick={() => setPopToggle(i)}
-                className="text-title-color text-base cursor-pointer group">
+                className="text-title-color text-sm cursor-pointer group">
                 View More{" "}
                 <i className="bx bxs-chevron-right group-hover:translate-x-2 transition-all duration-300 group-hover:text-title-color-dark"></i>
               </p>
