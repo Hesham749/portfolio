@@ -24,7 +24,7 @@ export default function Services() {
       <span className="block text-center text-title-color font-thin  text-xs/none mb-20">
         What i offer
       </span>
-      <div className="md:w-fit justify-self-center sm:mx-10 p- md:p-0 md:mx-auto ">
+      <div className="md:w-fit justify-self-center sm:mx-10 p-5 md:p-0 md:mx-auto ">
         <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-5">
           {services.map((item, i) => (
             <div
