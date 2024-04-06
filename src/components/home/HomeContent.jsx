@@ -52,7 +52,9 @@ export default function HomeContent() {
         IT company with the opportunity to work with the latest technologies on
         challenging and diverse projects.
       </p>
-      <a href="#contact" className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
+      <a
+        href="#contact"
+        className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
         Say Hello
         <svg
           className="button__icon"

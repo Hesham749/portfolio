@@ -49,16 +49,13 @@ export default function Skills() {
         </h3>
         <div className="grid gap-10 grid-cols-2 md:gap-x-20 m-10 ">
           {skills.map((skill, i) => (
-            <div
-              key={i}
-              className="flex  flex-col  ">
+            <div key={i} className="flex  flex-col  ">
               <div className="flex flex-row gap-2 items-center ">
                 <i className="bx bx-badge-check"></i>
 
-                  <h3 className=" text-title-color-dark  font-semibold">
-                    {skill.name}
-                  </h3>
-
+                <h3 className=" text-title-color-dark  font-semibold">
+                  {skill.name}
+                </h3>
               </div>
               <span className=" text-title-color font-thin ps-6 text-xs/none ">
                 {skill.level}

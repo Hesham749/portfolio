@@ -38,14 +38,18 @@ export default function Services() {
                 Designer
               </h3>
 
-              <p onClick={() => setPopToggle(i)} className="text-title-color text-xs cursor-pointer group">
+              <p
+                onClick={() => setPopToggle(i)}
+                className="text-title-color text-xs cursor-pointer group">
                 View More{" "}
                 <i className="bx bxs-chevron-right group-hover:translate-x-2 transition-all duration-300 group-hover:text-title-color-dark"></i>
               </p>
               {/* pop up */}
               <div
                 className={`${
-                  popToggle === i ? "visible opacity-100" : "invisible opacity-0"
+                  popToggle === i
+                    ? "visible opacity-100"
+                    : "invisible opacity-0"
                 } transition-all duration-300 fixed top-0 bottom-0 right-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center `}>
                 {/* pop up card */}
                 <div className="bg-white mx-10  flex flex-col px-5 py-10 rounded-xl gap-10">
@@ -68,8 +72,8 @@ export default function Services() {
                   {/* pop up content */}
                   <div className="flex justify-start flex-col gap-3 text-xs text-title-color">
                     <span className="flex items-center gap-2">
-                      <i className="bx bx-check-circle text-lg"></i>I develop the
-                      user interface.
+                      <i className="bx bx-check-circle text-lg"></i>I develop
+                      the user interface.
                     </span>
                     <span className="flex items-center gap-2">
                       <i className="bx bx-check-circle text-lg"></i>Web page
@@ -80,8 +84,8 @@ export default function Services() {
                       element interactions.
                     </span>
                     <span className="flex items-center gap-2">
-                      <i className="bx bx-check-circle text-lg"></i>I position your
-                      company brand.
+                      <i className="bx bx-check-circle text-lg"></i>I position
+                      your company brand.
                     </span>
                     <span className="flex items-center gap-2">
                       <i className="bx bx-check-circle text-lg"></i>Design and

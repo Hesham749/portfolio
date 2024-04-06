@@ -83,7 +83,7 @@ export default function Header() {
                 key={i}
                 href={`${link.path}`}
                 className={`${
-                  activeLink === link.name ? "text-black":'text-gray-500'
+                  activeLink === link.name ? "text-black" : "text-gray-500"
                 } flex flex-col items-center font-bold py-2 px-3 rounded border-none  hover:text-title-color-dark  `}>
                 <i className={`bx bx-${link.icon} md:hidden `}></i>
                 {link.name}
