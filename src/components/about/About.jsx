@@ -9,7 +9,7 @@ export default function About() {
       <h2 className="text-center text-title-color-dark text-3xl font-semibold">
         About Me
       </h2>
-      <span className="block text-center text-title-color font-thin  text-xs/none mb-10">
+      <span className="block text-center text-title-color font-thin  text-xs/none mb-20">
         My introduction
       </span>
       <div className="grid grid-cols-1 md:grid-cols-5  gap-y-10 ">

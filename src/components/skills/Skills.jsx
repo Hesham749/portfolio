@@ -40,7 +40,7 @@ export default function Skills() {
       <h2 className="text-center text-title-color-dark text-3xl font-semibold">
         Skills
       </h2>
-      <span className="block text-center text-title-color font-thin  text-xs/none mb-10">
+      <span className="block text-center text-title-color font-thin  text-xs/none mb-20">
         My technical level
       </span>
       <div className="bg-white w-fit mx-auto border border-gray-200 rounded-xl">
@@ -53,7 +53,7 @@ export default function Skills() {
               key={i}
               className="flex  flex-col  ">
               <div className="flex flex-row gap-2 items-center ">
-                <i class="bx bx-badge-check"></i>
+                <i className="bx bx-badge-check"></i>
 
                   <h3 className=" text-title-color-dark  font-semibold">
                     {skill.name}
