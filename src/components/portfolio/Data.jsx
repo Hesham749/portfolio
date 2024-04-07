@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "architects",
+    title: "Architects",
     image: image6,
     demo: "https://vercel.com/heshams-projects-f4d998c5/architects/6pnXDzEj1URQUhBY2GLBHChegbGj",
     github: "https://github.com/Hesham749/architects",
