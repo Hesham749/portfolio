@@ -65,7 +65,7 @@ export default function Contact() {
       <span className="block text-center text-title-color font-thin  text-xs/none mb-20">
         Contact Me
       </span>
-      <div className="flex flex-col mx-14 md:mx-0 md:flex-row justify-center  gap-20  justify-self-center ">
+      <div className="flex flex-col mx-4 md:mx-0 md:flex-row justify-center  gap-20  justify-self-center ">
         <div className="flex flex-col gap-5">
           <h3 className="text-title-color-dark font-semibold text-center text-lg ">
             Talk to me
@@ -73,11 +73,11 @@ export default function Contact() {
           {contactCard.map(({ id, icon, title, info, link }) => (
             <div
               key={id}
-              className="flex flex-col items-center  bg-white border border-gray-200 rounded-xl px-10 py-4">
+              className="flex flex-col items-center  bg-white border border-gray-200 rounded-xl px-10 py-7">
               <i className={`${icon} text-title-color-dark text-3xl`}></i>
 
               <h3 className="text-title-color-dark font-semibold">{title}</h3>
-              <span className="text-title-color">{info}</span>
+              <span className="text-title-color no-underline ">{info}</span>
               <a
                 href={link}
                 target="_blank"
@@ -95,9 +95,9 @@ export default function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col  gap-20">
+            className="flex flex-col items-center md:items-start  gap-20">
             {formInput.map(({ id, name, type, placeholder }) => (
-              <div key={id} className="relative ">
+              <div key={id} className="relative  w-full">
                 <label className=" text-xs text-title-color absolute top-[-9px] bg-white left-3 z-10">
                   {name}
                 </label>
@@ -122,7 +122,7 @@ export default function Contact() {
                 className="absolute top-0 bg-body-color ps-4 py-3 r-box-shadow focus:border-title-color-dark \ border-2 border-gray-400 outline-none rounded-lg p-2 w-full"
               />
             </div>
-            <button className="flex mt-36 items-center gap-1 p-3 w-fit rounded-xl outline-none  hover:bg-black text-white  bg-container-color">
+            <button className="flex  mt-36 items-center gap-1 p-3 w-fit rounded-xl outline-none  hover:bg-black text-white  bg-container-color">
               Send Message
               <svg
                 className="button__icon"
