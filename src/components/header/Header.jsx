@@ -1,7 +1,7 @@
 import { Navbar } from "flowbite-react";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 
-export default function Header() {
+export default function Header(props) {
   const links = [
     {
       name: "Home",
@@ -36,20 +36,7 @@ export default function Header() {
   ];
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
-  const [position, setPosition] = useState(0);
-  const handleScroll = () => {
-    setPosition(window.scrollY);
-  };
-
-  useEffect(() => {
-    // ! another syntax to get the scroll value
-    // window.onscroll=() => handleScroll();
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const { position } = props;
   return (
     <>
       <Navbar
