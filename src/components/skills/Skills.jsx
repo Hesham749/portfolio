@@ -49,8 +49,8 @@ export default function Skills() {
         </h3>
         <div className="grid gap-x-5  mx-2 sm:gap-x-20 sm:mx-14 gap-y-10 grid-cols-2 md:gap-x-20 my-10  md:mx-20 ">
           {skills.map((skill, i) => (
-            <div key={i} className="flex  flex-col justify-self-center ">
-              <div className="flex flex-row gap-2 items-center ">
+            <div key={i} className="flex  flex-col justify-self-start items-start ">
+              <div className="flex flex-row gap-2 items-center  ">
                 <i className="bx bx-badge-check"></i>
 
                 <h3 className=" text-title-color-dark  font-semibold">
