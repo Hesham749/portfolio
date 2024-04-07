@@ -8,6 +8,7 @@ import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Testimonials from "./components/testimonials/Testimonials";
 import ScrollUp from "./components/scroll up/ScrollUp";
+import Portfolio from "./components/portfolio/Portfolio";
 
 function App() {
   const [position, setPosition ] = useState(0);
@@ -30,6 +31,7 @@ function App() {
         <Skills />
         <Services />
         <Testimonials />
+        <Portfolio />
         <Contact />
         <ScrollUp position={position}/>
       </main>

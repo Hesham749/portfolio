@@ -2,7 +2,6 @@ import React from "react";
 
 export default function ScrollUp(props) {
   const { position } = props;
-  console.log(position);
   return (
     <div
       onClick={(e) => window.scrollTo(0, 0)}

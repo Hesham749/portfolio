@@ -19,6 +19,7 @@ code {
 }
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 button {
   cursor: pointer;

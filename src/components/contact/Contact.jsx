@@ -79,10 +79,11 @@ export default function Contact() {
               <h3 className="text-title-color-dark font-semibold">{title}</h3>
               <span className="text-title-color no-underline ">{info}</span>
               <a
+              rel="noopener noreferrer"
                 href={link}
                 target="_blank"
                 className="flex gap-2 mt-3 items-center  text-title-color group hover:text-title-color-dark">
-                Write me{" "}
+                Contact me{" "}
                 <i className="bx bx-right-arrow-alt  group-hover:translate-x-2 group-hover:text-title-color-dark transition-all duration-300"></i>
               </a>
             </div>
