@@ -91,7 +91,7 @@ export default function Contact() {
         </div>
         <div className="w-full xl:w-[50%] flex flex-col gap-5">
           <h3 className="text-title-color-dark font-semibold text-center text-lg">
-            Write me your project
+            Write to me your project
           </h3>
           <form
             ref={form}
