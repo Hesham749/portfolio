@@ -31,7 +31,7 @@ export default function Portfolio() {
                   target="_blank"
                   className="flex gap-2  items-center  text-title-color group hover:text-title-color-dark">
                   Demo{" "}
-                  <i className="bx bx-right-arrow-alt  group-hover:translate-x-2 group-hover:text-title-color-dark transition-all duration-300"></i>
+                  <i className="bx bx-right-arrow-alt  group-hover:translate-x-1 group-hover:text-title-color-dark transition-all duration-300"></i>
                 </a>
                 <a
                   href={github}
@@ -39,7 +39,7 @@ export default function Portfolio() {
                   target="_blank"
                   className="flex gap-2   items-center  text-title-color group hover:text-title-color-dark">
                   Code{" "}
-                  <i className="bx bx-right-arrow-alt  group-hover:translate-x-2 group-hover:text-title-color-dark transition-all duration-300"></i>
+                  <i className="bx bx-code  group-hover:translate-x-1 group-hover:text-title-color-dark transition-all duration-300"></i>
                 </a>
               </div>
             </div>
