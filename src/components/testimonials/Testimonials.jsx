@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 export default function Testimonials() {
   return (
-    <section className="mb-40 pt-16 px-5 md:px-0" id="testimonials">
+    <section className="mb-40 pt-16 px-5 md:px-0 " id="testimonials">
       <h2 className="text-center text-title-color-dark text-3xl font-semibold">
         My clients say
       </h2>
@@ -42,7 +42,7 @@ export default function Testimonials() {
           },
         }}
         modules={[Autoplay, Pagination]}
-        className=" xl:w-[80%]">
+        className=" xl:w-[80%] ">
         {Data.map(({ id, title, image, description }) => (
           <SwiperSlide
             key={id}

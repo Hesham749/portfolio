@@ -53,7 +53,8 @@ export default function HomeContent() {
         challenging and diverse projects.
       </p>
       <a
-        href="#contact"
+        href="https://wa.me/+201014607065"
+        target="_blank"
         className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
         Say Hello
         <svg

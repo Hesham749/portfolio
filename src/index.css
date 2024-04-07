@@ -59,3 +59,7 @@ img {
     transform: translateY(3.5rem);
   }
 }
+.r-box-shadow:focus{
+
+  box-shadow: 0 0 0 0rem black;
+}
