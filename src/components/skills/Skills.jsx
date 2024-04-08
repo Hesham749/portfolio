@@ -15,7 +15,7 @@ export default function Skills() {
       level: "Advanced",
     },
     {
-      name: "Tailwind CSS",
+      name: "Tailwind",
       level: "Intermediate",
     },
     {
