@@ -19,14 +19,6 @@ export default function Skills() {
       level: "Intermediate",
     },
     {
-      name: "JavaScript",
-      level: "Intermediate",
-    },
-    {
-      name: "JQuery",
-      level: "Intermediate",
-    },
-    {
       name: "Git",
       level: "Intermediate",
     },
@@ -34,6 +26,15 @@ export default function Skills() {
       name: "github",
       level: "Intermediate",
     },
+    {
+      name: "JavaScript",
+      level: "Intermediate",
+    },
+    {
+      name: "JQuery",
+      level: "Intermediate",
+    },
+
     {
       name: "React",
       level: "Intermediate",
