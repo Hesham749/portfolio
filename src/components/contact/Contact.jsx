@@ -79,7 +79,7 @@ export default function Contact() {
               <h3 className="text-title-color-dark font-semibold">{title}</h3>
               <span className="text-title-color no-underline ">{info}</span>
               <a
-              rel="noopener noreferrer"
+                rel="noopener noreferrer"
                 href={link}
                 target="_blank"
                 className="flex gap-2 mt-3 items-center  text-title-color group hover:text-title-color-dark">
@@ -106,6 +106,7 @@ export default function Contact() {
                   type={type}
                   name={name}
                   placeholder={placeholder}
+                  required
                   className="absolute top-0 ps-4 py-3  bg-body-color focus:border-title-color-dark  border-2 outline-none  border-gray-400   r-box-shadow  rounded-lg p-2 w-full"
                 />
               </div>
@@ -116,6 +117,7 @@ export default function Contact() {
                 Project
               </label>
               <textarea
+                required
                 type={"text"}
                 name={"Project"}
                 rows={7}
