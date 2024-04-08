@@ -7,7 +7,7 @@ export default function Skills() {
       level: "Advanced",
     },
     {
-      name: "Git",
+      name: "Bootstrap",
       level: "Intermediate",
     },
     {
@@ -15,7 +15,7 @@ export default function Skills() {
       level: "Advanced",
     },
     {
-      name: "Tailwind",
+      name: "Tailwind CSS",
       level: "Intermediate",
     },
     {
@@ -23,7 +23,15 @@ export default function Skills() {
       level: "Intermediate",
     },
     {
-      name: "Bootstrap",
+      name: "JQuery",
+      level: "Intermediate",
+    },
+    {
+      name: "Git",
+      level: "Intermediate",
+    },
+    {
+      name: "github",
       level: "Intermediate",
     },
     {
