@@ -23,7 +23,7 @@ export default function Skills() {
       level: "Intermediate",
     },
     {
-      name: "github",
+      name: "Github",
       level: "Intermediate",
     },
     {
