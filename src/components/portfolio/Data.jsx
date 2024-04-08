@@ -36,7 +36,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Crud",
+    title: "CRUD",
     image: image5,
     demo: "https://crud-inky-seven.vercel.app/",
     github: "https://github.com/Hesham749/product-management",
