@@ -14,6 +14,7 @@ export default function About() {
       </span>
       <div className="grid grid-cols-1 md:grid-cols-5  gap-y-10 ">
         <img
+        loading="lazy"
           src={aboutImg}
           alt=""
           className=" md:grid md:grid-cols-subgrid md:col-span-2 h-[220px] grow md:h-[240px] lg:h-[350px] rounded-2xl   justify-self-center md:justify-self-start lg:justify-self-end xl:justify-self-center shadow-lg "
