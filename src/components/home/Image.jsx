@@ -7,7 +7,7 @@ export default function Image() {
       loading="lazy"
         src={img}
         alt=""
-        className="image w-full h-full  border-8 border-gray-300 "
+        className="image w-full h-full  "
       />
     </div>
   );
