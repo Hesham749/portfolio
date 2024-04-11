@@ -17,6 +17,7 @@ export default function Portfolio() {
               key={id}
               className="bg-white px-6 py-6 rounded-lg border hover:translate-y-[-10px] transition-all duration-300  border-gray-200 shadow-lg  flex flex-col items-start justify-center gap-3">
               <img
+              loading="lazy"
                 src={image}
                 alt=""
                 className="w-full rounded-lg border border-gray-200"

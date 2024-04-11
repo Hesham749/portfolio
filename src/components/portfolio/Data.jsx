@@ -10,7 +10,7 @@ export const projects = [
     id: 1,
     title: "E-Shop",
     image: image1,
-    demo: "https://e-commerce-8cwg3to4r-heshams-projects-f4d998c5.vercel.app/",
+    demo: "https://eshop-commerce.vercel.app/",
     github: "https://github.com/Hesham749/e-commerce",
   },
   {
@@ -31,7 +31,7 @@ export const projects = [
     id: 4,
     title: "Leon",
     image: image4,
-    demo: "https://html-and-css-leon-template-46bh75sgg-heshams-projects-f4d998c5.vercel.app/",
+    demo: "https://html-and-css-leon-template.vercel.app/",
     github: "https://github.com/Hesham749/HTML_And_CSS_Leon-template",
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     id: 6,
     title: "Architects",
     image: image6,
-    demo: "https://vercel.com/heshams-projects-f4d998c5/architects/6pnXDzEj1URQUhBY2GLBHChegbGj",
+    demo: "https://architects-five.vercel.app/",
     github: "https://github.com/Hesham749/architects",
   },
 ];
