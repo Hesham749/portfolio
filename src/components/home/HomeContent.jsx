@@ -54,7 +54,6 @@ export default function HomeContent() {
       </p>
       <a
         href="#contact"
-
         className="flex items-center gap-1 p-3 w-fit rounded-xl outline-none hover:bg-black text-white mt-3 bg-container-color">
         Say Hello
         <svg
