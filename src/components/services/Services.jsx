@@ -50,7 +50,7 @@ export default function Services() {
                   popToggle === i
                     ? "visible opacity-100"
                     : "invisible opacity-0"
-                } transition-all duration-300 fixed top-0 bottom-0 right-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center `}>
+                } transition-all duration-300 z-40 fixed top-0 bottom-0 right-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center `}>
                 {/* pop up card */}
                 <div className="bg-white mx-10  flex flex-col px-5 py-10 rounded-xl gap-10">
                   {/* pop up close btn */}
