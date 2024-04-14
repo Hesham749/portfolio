@@ -31,7 +31,7 @@ export default function About() {
                             pages, I look forward to collaborating with a
                             professional team to expand my skills, contribute to
                             real-world projects, and am committed to driving the
-                            success of any project I work on
+                            success of any project I work on.
                         </p>
                         <a
                             href={CV}
