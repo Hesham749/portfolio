@@ -44,9 +44,9 @@ export default function FOoter() {
             Projects
           </a>
           <a
-            href="#testimonials"
+            href="#skills"
             className="text-title-color hover:text-title-color-dark font-semibold">
-            Testimonials
+            Skills
           </a>
         </div>
 

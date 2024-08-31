@@ -30,7 +30,7 @@ function App() {
         <About />
         <Skills />
         <Services />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Portfolio />
         <Contact />
         <ScrollUp position={position}/>
