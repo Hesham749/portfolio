@@ -25,8 +25,8 @@ export default function Contact() {
       id: 1,
       icon: "bx bx-mail-send",
       title: "Email",
-      info: "heesham749@gmail.com",
-      link: "mailto:heesham749@gmail.com",
+      info: "HeshamElsayedAhmed@outlook.com",
+      link: "mailto:HeshamElsayedAhmed@outlook.com",
     },
     {
       id: 2,
