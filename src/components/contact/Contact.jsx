@@ -39,7 +39,7 @@ export default function Contact() {
       id: 3,
       icon: "bx bxl-messenger",
       title: "Messenger",
-      info: "Hesham El Sayed",
+      info: "Hesham ElSayed",
       link: "https://m.me/Hesham0.0elsayed",
     },
   ];
