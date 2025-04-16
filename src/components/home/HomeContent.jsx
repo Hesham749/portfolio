@@ -48,7 +48,7 @@ export default function HomeContent() {
         Front-end Developer
       </h3>
       <p className=" text-title-color  ">
-        I’m very ambitious front-end developer looking for a role in established
+        I’m very ambitious Full-Stack .NET Developer looking for a role in established
         IT company with the opportunity to work with the latest technologies on
         challenging and diverse projects.
       </p>

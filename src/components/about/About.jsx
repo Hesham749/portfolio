@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../../assets/hesham.jpg";
-import CV from "../../assets/Hesham_Elsayed_FrontEnd.pdf";
+import CV from "../../assets/Hesham_Elsayed_.NET_Full-Stack_Developer.pdf";
 import Info from "./Info";
 
 export default function About() {
