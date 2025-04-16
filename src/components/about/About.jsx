@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../assets/hesham.webp";
+import aboutImg from "../../assets/hesham.jpg";
 import CV from "../../assets/Hesham_Elsayed_FrontEnd.pdf";
 import Info from "./Info";
 
