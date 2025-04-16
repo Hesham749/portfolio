@@ -24,7 +24,7 @@ export default function About() {
                     <div className="  col-span-3  lg:col-span-2 lg:col-start-2">
                         <Info />
                         <p className="text-title-color my-7">
-                            Aspiring Frontend Developer with a passion for
+                            Aspiring Full-Stack .NET Developer with a passion for
                             creating seamless user experiences on the web.
                             Proficient in translating design concepts into
                             pixel-perfect, responsive, and interactive web

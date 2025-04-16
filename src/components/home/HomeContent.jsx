@@ -45,7 +45,7 @@ export default function HomeContent() {
         </svg>
       </h1>
       <h3 className="font-semibold text-gray-600 my-5 flex before:content[''] before:h-[1px] before:w-12 before:bg-gray-500 before:border-none items-center before:me-3">
-        Front-end Developer
+        Full-Stack .NET Developer
       </h3>
       <p className=" text-title-color  ">
         I’m very ambitious Full-Stack .NET Developer looking for a role in established
